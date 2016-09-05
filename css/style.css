@@ -18,8 +18,7 @@ Primary use:	One page
 
 [Color codes]
 
-Buttons, etc:	#726FB9 (blue)
-hover color:	#fed136 (yellow)
+hover color:	#CC0040 (magenta)
 -------------------------------------------------------------------*/
 
 /*--------------------
@@ -66,7 +65,7 @@ color: #B1B1B1;
 }
 
 a:hover, a:focus, a:active, a.active {
-	color: #fec503;
+	color: #CC0040;
 }
 a, a:hover, a:focus, a:active, a.active {
 	outline: 0;
@@ -74,7 +73,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 ::selection {
 	text-shadow: none;
-	background: #fed136;
+	background: #CC0040;
 }
 
 @media (min-width: 768px) {
@@ -133,7 +132,7 @@ section ul li:before {
 --------------------*/
 
 .navbar-default {
-	background-color: #222;
+	background-color: #fff;
 	border-color: transparent
 }
 .navbar-default .navbar-brand {
@@ -142,20 +141,20 @@ section ul li:before {
 	padding: 0px;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
-	color: #fec503
+	color: #CC0040
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02)
 }
 .navbar-default .navbar-toggle {
-	background-color: #fed136;
-	border-color: #fed136
+	background-color: #CC0040;
+	border-color: #CC0040
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #fed136
+	background-color: #CC0040
 }
 .navbar-default .nav li a {
 	font-family: "Roboto",sans-serif;
@@ -165,18 +164,18 @@ section ul li:before {
 	color:#000;
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	color: #fed136;
+	color: #CC0040;
 	outline: 0
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #fed136
+	background-color: #CC0040
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
-	background-color: #fec503
+	background-color: #CC0040
 }
 
 @media (min-width:768px) {
@@ -273,10 +272,10 @@ header .intro-text .intro-heading {
 .intro-subheading {
 	font-weight: 600;
 	font-size: 18px;
-	line-height: 5px;
+	line-height: 20px;
 	margin-bottom: 25px;
-	letter-spacing: 2px;
-	word-spacing: 5px;
+	letter-spacing: .5 px;
+	word-spacing: 3px;
 	color: #E6326E;
 }
 
@@ -633,7 +632,7 @@ font-size: 11px;
 }
 
 .modal-works span {
-	background-color: #FED136;
+	background-color: #CC0040;
 	margin-right: 15px;
 	padding: 5px 10px;
 }
@@ -644,13 +643,13 @@ font-size: 11px;
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
 	color: #fff;
-	background-color: #fec503;
+	background-color: #CC0040;
 	border-color: #f6bf01;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
 	color: #fff;
-	background-color: #fec503;
+	background-color: #CC0040;
 	border-color: #f6bf01;
 }
 
@@ -713,7 +712,7 @@ color: #fff;
 	transition: 1s;
 }
 #back-top a:hover {
-	background: #fed136;
+	background: #CC0040;
 }
 /* arrow icon (span tag) */
 #back-top i {
