@@ -33,7 +33,7 @@ Import Google Fonts
 /*--------------------
 1. General
 --------------------*/
-	
+
 body {
 	margin: 0px;
 	font-family: "Open Sans", Sans-serif;
@@ -61,7 +61,7 @@ p {
 }
 
 .dark-bg p {
-color: #B1B1B1;	
+color: #B1B1B1;
 }
 
 a:hover, a:focus, a:active, a.active {
@@ -88,7 +88,7 @@ section {
 
 ul {
 	padding-left: 0;
-	padding-top: 10px;	
+	padding-top: 10px;
 }
 
 ul li {
@@ -225,11 +225,13 @@ header {
 	-o-background-size: cover;
 	text-align: center;
 	color: #fff;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 header .intro-text {
-	padding-top: 100px;
-	padding-bottom: 50px;
+	height: 50%;
+	width: auto;
 }
 
 @media (min-width: 768px) {
@@ -264,7 +266,7 @@ header .intro-text .intro-heading {
 	font-weight: 600;
 	font-size: 36px;
 	line-height: 120%;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	letter-spacing: 2px;
 	word-spacing: 5px;
 	color: #FFFFFF;
@@ -275,8 +277,8 @@ header .intro-text .intro-heading {
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 20px;
-	margin-bottom: 25px;
-	letter-spacing: .5 px;
+	margin-bottom: 5px;
+	letter-spacing: .5px;
 	word-spacing: 3px;
 	color: #E6326E;
 }
@@ -398,7 +400,7 @@ figure {
 	margin: 0 1px 1px 0;
 	background: #726FB9;
 	text-align: center;
-	cursor: pointer;	
+	cursor: pointer;
 }
 
 figcaption {
@@ -406,7 +408,7 @@ figcaption {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 
 .ot-portfolio-item figure figcaption > a {
@@ -517,7 +519,7 @@ figure.effect-bubba:hover p {
 }
 
 .dark-bg {
-	background-color: #2B2B2B;	
+	background-color: #2B2B2B;
 	color: #fff;
 }
 
@@ -577,7 +579,7 @@ figure.effect-bubba:hover p {
 
 footer {
 	padding: 30px;
-	background-color: #000;	
+	background-color: #000;
 }
 
 footer p {
@@ -605,12 +607,12 @@ footer p a span {
 --------------------*/
 
 .modal-content {
-	border-radius: 0;	
+	border-radius: 0;
 }
 .modal-header .close {
-	font-size: 30px;	
+	font-size: 30px;
 }
-.modal-title {	
+.modal-title {
 	text-transform: uppercase;
 	font-size: 23px;
 }
@@ -621,7 +623,7 @@ footer p a span {
 
 .modal-body p {
 	margin: 30px 20px;
-	color: #2D2D2D;		
+	color: #2D2D2D;
 }
 
 .modal-works {
@@ -738,4 +740,40 @@ and (max-width : 480px) {
 	margin-top: 7px;
 	font-size: 20px;
 }
+}
+
+.card{
+	height: 15rem;
+	padding: 10px;
+	background:#E9E9E9;
+	border-radius: 25px;
+  border: .01rem solid #CC0040;
+}
+
+.vidcontain{
+	  position: relative;;
+		width: 100%;
+		height:20px;
+}
+
+
+video{
+  position: absolute;
+	height: 50%;
+ 	vertical-align: middle;
+ 	width: 100%;
+
+}
+#title{
+	position: relative;
+	z-index: 9;
+}
+
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
