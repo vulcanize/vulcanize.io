@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="204px" viewBox="0 0 200 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>Vulcanize Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="76 49.7122232 100 94.2812596 124 49.8808353 200 203.921569 0 203.921569"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="200" height="154.209345" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Volcano-1" transform="translate(-50.000000, -46.000000)">
+            <g id="Vulcanize-Logo" transform="translate(50.000000, 46.000000)">
+                <path d="M116.984356,35.4769549 L117,35.5087309 L116.968684,35.5087309 L100.018137,69.8761716 L83,35.4452371 L100.018137,0.887780194 L117,35.4452371 L116.984356,35.4769549 Z" id="Combined-Shape" fill="#CC0040" transform="translate(100.000000, 35.381976) scale(-1, 1) translate(-100.000000, -35.381976) "></path>
+                <use id="Triangle" stroke="#2B2B2B" mask="url(#mask-2)" stroke-width="40" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
